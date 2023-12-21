@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e3fc5ea-1d60-4025-aa87-393375b16c92" name="更改" comment="添加README">
-      <change beforePath="$PROJECT_DIR$/READEME.md" beforeDir="false" afterPath="$PROJECT_DIR$/READEME.md" afterDir="false" />
+    <list default="true" id="6e3fc5ea-1d60-4025-aa87-393375b16c92" name="更改" comment="修改README">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +18,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ZqWQgTAfrnR2aGO7rwbqow6Ike" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -35,14 +35,42 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Code/Java/Student_System/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+    "project.structure.last.edited": "问题",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Main.executor": "Run"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Student_System" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-249ae16d76d6-ec8bc16d" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -51,7 +79,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703150079602</updated>
-      <workItem from="1703150080617" duration="466000" />
+      <workItem from="1703150080617" duration="1803000" />
+      <workItem from="1703151901042" duration="80000" />
+      <workItem from="1703151986862" duration="1774000" />
+      <workItem from="1703153829974" duration="444000" />
     </task>
     <task id="LOCAL-00001" summary="创建仓库">
       <option name="closed" value="true" />
@@ -69,7 +100,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703150440251</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加README">
+      <option name="closed" value="true" />
+      <created>1703150558691</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703150558691</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改README">
+      <option name="closed" value="true" />
+      <created>1703150638341</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703150638341</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,7 +125,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建仓库" />
     <MESSAGE value="添加README" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加README" />
+    <MESSAGE value="修改README" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -90,5 +138,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
