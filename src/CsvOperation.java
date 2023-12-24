@@ -40,26 +40,25 @@ public class CsvOperation {
     }
 
 
-
     public static void writeToFile() {
         FileWriter writer = null;
         try {
             //cleanData();
             writer = new FileWriter(csvFilePath, true); //使用追加模式
             for (Student student : StudentOperation.students) {
-                writer.write("姓名："+student.getName());
+                writer.write("姓名：" + student.getName());
                 writer.append(",");
-                writer.write("学号："+student.getId());
+                writer.write("学号：" + student.getId());
                 writer.append(",");
-                writer.write("java分数"+student.getJavaScore());
+                writer.write("java分数" + student.getJavaScore());
                 writer.append(",");
-                writer.write("高等数学分数："+student.getMathScore());
+                writer.write("高等数学分数：" + student.getMathScore());
                 writer.append(",");
-                writer.write("大学英语分数："+student.getEnglishScore());
+                writer.write("大学英语分数：" + student.getEnglishScore());
                 writer.append(",");
-                writer.write("总分："+student.getTotalScore());
+                writer.write("总分：" + student.getTotalScore());
                 writer.append(",");
-                writer.write("平均分："+student.getAverScore());
+                writer.write("平均分：" + student.getAverScore());
                 writer.append("\n");
             }
             writer.flush();
@@ -75,16 +74,6 @@ public class CsvOperation {
                     e.printStackTrace(System.err);
                 }
             }
-        }
-    }
-
-    private static void cleanData(){
-        try{
-            FileWriter writer = new FileWriter(csvFilePath);
-            writer.write("");
-            writer.close();
-        }catch (IOException e){
-            e.printStackTrace(System.err);
         }
     }
 }

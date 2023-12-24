@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         StudentOperation manager = new StudentOperation();
@@ -10,7 +9,7 @@ public class Main {
             System.out.println("2: 删除学生");
             System.out.println("3: 查找学生");
             System.out.println("4: 列出此次添加的所有学生");
-            System.out.println("7: 写入文件并退出系统");
+            System.out.println("7: 退出系统");
             System.out.print("输入你的选择: ");
             int choice = scanner.nextInt();
             switch (choice) {
@@ -41,7 +40,7 @@ public class Main {
                 case 4:
                     manager.printAllStudents();
                     break;
-                case 7: // Exit
+                case 5: // Exit
                     exit = true;
                     break;
                 default: // Invalid choice
