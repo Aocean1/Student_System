@@ -43,7 +43,6 @@ public class CsvOperation {
     public static void writeToFile() {
         FileWriter writer = null;
         try {
-            //cleanData();
             writer = new FileWriter(csvFilePath, true); //使用追加模式
             for (Student student : StudentOperation.students) {
                 writer.write("姓名：" + student.getName());
