@@ -14,7 +14,7 @@ public class StudentOperation {
         for (int i = 0; i < students.size(); i++) {
             if (students.get(i).getId().equals(id)) {
                 students.remove(i);
-                CsvOperation.writeToFile();
+
                 return;
             }
         }
