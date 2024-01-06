@@ -7,7 +7,7 @@ public class StudentOperation {
         CsvOperation csvOperation = new CsvOperation();
         students = csvOperation.loadStudentsFromCSV();
     }
-    public void addStudent(Student student) {       //在students中增加一行信息，并使用writeToFile写入csv
+    public void addStudent(Student student) {
         students.add(student);
     }
     public void deleteStudent(String id) {          //遍历students，当学号相等时删除

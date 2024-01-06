@@ -41,5 +41,6 @@ public class Student {
         return totalScore;
     }
 
-    public float getAverScore()  {  return averScore;}
+    public float getAverScore() {
+        return averScore;}
 }
