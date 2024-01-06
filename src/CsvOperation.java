@@ -1,44 +1,7 @@
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 public class CsvOperation {
     private static final String csvFilePath = "students.csv";
-
-    public ArrayList<Student> loadStudentsFromCSV() {
-        ArrayList<Student> students = new ArrayList<>(); //新建一个ArrayList
-        try {
-            Scanner scanner = new Scanner(Files.newInputStream(Paths.get(csvFilePath)));
-            scanner.nextLine(); // 跳过标题行，从第二行读起
-            while (scanner.hasNextLine()) {
-                String line = scanner.nextLine();
-                String[] data = line.split(",");
-                try {
-                    if (data.length == 7) {
-                        String name = data[0];
-                        String id = data[1];
-                        float JavaScore = Float.parseFloat(data[2]);
-                        float mathScore = Float.parseFloat(data[3]);
-                        float englishScore = Float.parseFloat(data[4]);
-                        float totalScore = Float.parseFloat(data[5]);
-                        float averScore = Float.parseFloat(data[6]);
-                        students.add(new Student(name, id, JavaScore, mathScore, englishScore, totalScore, averScore)); //添加给students
-                    } else {
-                        throw new Exception("写入数据时发生错误： " + line);
-                    }
-                } catch (Exception e) {
-                    System.out.println(e.getMessage());
-                }
-            }
-            scanner.close();
-        } catch (Exception e) {
-            e.printStackTrace(System.err);
-        }
-        return students;
-    }
-
 
     public static void writeToFile() {
         FileWriter writer = null;

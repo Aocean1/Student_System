@@ -4,8 +4,6 @@ public class StudentOperation {
 
     public StudentOperation() {                       //创建一个ArrayList用于存放信息，并且把csv里的数据载入students中
         students = new ArrayList<>();
-        CsvOperation csvOperation = new CsvOperation();
-        students = csvOperation.loadStudentsFromCSV();
     }
     public void addStudent(Student student) {
         students.add(student);
